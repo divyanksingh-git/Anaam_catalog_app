@@ -1,8 +1,23 @@
-# Anaam_catalog_app
+## Anaam App
 
-Final App Preview :
-https://drive.google.com/file/d/1kdA3azttbELlBhTS7ZLrH0YstWLjM2Xy/view?usp=drivesdk
+The goal of this app is to provide a platform for the general public to share information on Drug Trafficking with NCB(Narcotics Control Bureau) anonymously.
+It acts as a one-way bridge from the general public to the NCB Department i.e You can share the details about the incidents of Drug Trafficking around your neighborhood with the Department without them knowing your true identity. It uses the Tor network that hides your personal information.
 
+The app has been built on Flutter(an open-source software development kit, a cross-platform development tool that can use the same code base to develop iOS and Android applications). Anonymity is provided by the use of TOR which works on the principle of onion routing. To filter out legitimate information the use of machine learnings email spam detection algorithm will be used. Further ramifications will continue to develop to enhance the performance.
+
+### **Technology**
+1. **Flutter -** Used to develope this app.
+2. **Tor -** For anonymous connection.
+3. **Firebase -** For data storage.
+
+### **Permessions**
+1. **Camera** permission for capturing live evidence
+2. **Location** permission for pinpointing the location of the trafficking.
+3. **Storage** permission is required to select and upload your files.
+4. **Microphone** permission is required for capturing the audio of the offense.
+5. **Network** permission is required to connect to Tor network.
+
+### **Screenshots**
 Login-Page-ui
 
 ![image](https://user-images.githubusercontent.com/59536110/196039089-aa96660b-a378-4e7a-86ab-aaee66e6d0dd.png)
